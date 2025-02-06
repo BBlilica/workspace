@@ -1,0 +1,26 @@
+package Quiz23;
+
+public class Video implements Runnable {
+
+	@Override
+	public void run() {
+		
+		
+		System.out.println("음악을 재생합니다.");
+		for(int i = 1; i <= 15; i++) {
+			try {
+				Thread.sleep(1000);
+			} catch (Exception e) {
+				
+			}
+			
+		}
+		System.out.println("음악재생이 끝났습니다.");
+	}
+
+	
+	
+	
+	
+	
+}
